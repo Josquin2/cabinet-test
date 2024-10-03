@@ -1,0 +1,55 @@
+@media only screen and (max-width: 950px) {
+  .main-header {
+    .upper-section {
+      .hamburger-menu {
+        display: flex;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .main-header {
+    .upper-section {
+      .header-right-side {
+        .header-search-buttons {
+          .header-icon {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .main-header {
+    .upper-section {
+      border-bottom: none;
+
+      .current-page-name {
+        font-size: 20px;
+      }
+      .header-right-side {
+        .header-search-buttons {
+          display: none;
+        }
+      }
+    }
+    .lower-section {
+      display: flex;
+      justify-content: center;
+      padding: 0px 35px 20px 35px;
+
+      .header-search-buttons {
+        width: 100%;
+        input {
+          width: 100%;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

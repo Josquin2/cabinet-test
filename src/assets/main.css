@@ -1,0 +1,34 @@
+/* COMPONENTS */
+
+/* LAPTOP */
+@import url('./laptop/settings-page.scss');
+@import url('./laptop/navigation-bar.scss');
+@import url('./laptop/main-header.scss');
+
+/* MOBILE */
+@import url('./mobile/main-header.scss');
+@import url('./mobile/settings-page.scss');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+button,
+input,
+textarea:focus {
+  outline-width: 0;
+}
+
+input::placeholder {
+  color: #8ba3cb;
+  opacity: 1;
+}
+input::-ms-input-placeholder {
+  color: #8ba3cb;
+  opacity: 1;
+}
