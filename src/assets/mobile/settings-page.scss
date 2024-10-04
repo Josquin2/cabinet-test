@@ -30,16 +30,31 @@
 
 @media only screen and (max-width: 610px) {
   .settings-page {
-    padding: 20px;
+    border-radius: 15px;
+    padding: 13px 20px 20px 20px;
     .settings-navigation {
-      gap: 30px;
+      gap: 0px;
+      justify-content: space-between;
       .settings-nav-button {
         width: 80px;
+        height: 34px;
         font-size: 13px;
       }
     }
     .edit-profile-block {
+      .edit-photo {
+        margin-top: 0;
+        img {
+          width: 170px;
+          height: 170px;
+        }
+
+        button {
+          bottom: 20px;
+        }
+      }
       .edit-personal-info {
+        gap: 13px;
         .personal-block {
           flex-direction: column;
           gap: 16px;
@@ -50,13 +65,19 @@
             }
             input {
               font-size: 12px;
+              height: 40px;
+              border-radius: 10px;
+              padding-left: 15px;
             }
           }
         }
         .save-button {
+          margin-top: 4px;
           button {
             width: 100%;
+            padding: 11px;
             font-size: 15px;
+            border-radius: 9px;
           }
         }
       }

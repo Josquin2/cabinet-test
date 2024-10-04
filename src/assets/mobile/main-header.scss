@@ -27,6 +27,8 @@
 @media only screen and (max-width: 630px) {
   .main-header {
     .upper-section {
+      height: fit-content;
+      padding: 25px 25px 20px 25px;
       border-bottom: none;
 
       .current-page-name {
@@ -36,19 +38,30 @@
         .header-search-buttons {
           display: none;
         }
+
+        .header-avatar {
+          zoom: 0.583;
+        }
       }
     }
     .lower-section {
       display: flex;
       justify-content: center;
-      padding: 0px 35px 20px 35px;
+      padding: 0px 25px 20px 25px;
 
       .header-search-buttons {
         width: 100%;
         input {
           width: 100%;
           font-size: 13px;
+          padding: 12px 45px;
         }
+      }
+
+      .header-search-buttons::before {
+        top: 10px;
+        left: 17px;
+        transform: scale(0.8);
       }
     }
   }
